@@ -52,7 +52,7 @@ akka.cluster.discovery {
 		
 		# A fully qualified type name with assembly name of a discovery service class 
 		# used by the cluster discovery plugin.
-		class = "Akka.Cluster.Discovery.Consul.ConsulDiscoveryService, Akka.Cluster.Discovery.Consul"
+		class = "Akka.Cluster.Discovery.Cloudmap.CloudmapDiscoveryService, Akka.Cluster.Discovery.Cloudmap"
 
 		# Define a dispatcher type used by discovery service actor.
 		dispatcher = "akka.actor.default-dispatcher"
