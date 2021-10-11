@@ -1,7 +1,9 @@
 ## Akka.Cluster.Discovery.Cloudmap
 
 Akka.Net Cluster Plugin that allows to manage a set of Akka.NET cluster
-seed nodes using AWS Cloudmap.
+seed nodes using AWS Cloudmap. 
+
+This is based on [Horusiath](https://github.com/Horusiath)'s work with [Akka.Cluster.Discovery](https://github.com/Horusiath/Akka.Cluster.Discovery)
 
 ### Example
 
