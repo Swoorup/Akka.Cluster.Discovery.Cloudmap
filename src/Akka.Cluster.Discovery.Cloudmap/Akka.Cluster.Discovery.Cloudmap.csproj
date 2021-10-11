@@ -4,6 +4,14 @@
         <RootNamespace>Akka.Cluster.Discovery.Cloudmap</RootNamespace>
         <LangVersion>8</LangVersion>
         <TargetFrameworks>net5.0;netstandard2.0;netstandard2.1</TargetFrameworks>
+        <Title>Akka.Cluster.Discovery.Cloudmap</Title>
+        <Authors>Swoorup Joshi</Authors>
+        <Description>Akka.Net Service Discovery Cluster Plugin that allows to manage a set of Akka.NET cluster seed nodes using AWS Cloudmap</Description>
+        <PackageProjectUrl>https://github.com/Swoorup/Akka.Cluster.Discovery.Cloudmap</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/Swoorup/Akka.Cluster.Discovery.Cloudmap</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>Akka</PackageTags>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     </PropertyGroup>
 
     <ItemGroup>
