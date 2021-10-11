@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <RootNamespace>Akka.Cluster.Discovery.Cloudmap</RootNamespace>
+        <LangVersion>8</LangVersion>
+        <TargetFrameworks>net5.0;netstandard2.0;netstandard2.1</TargetFrameworks>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Akka.Cluster.Discovery" Version="0.3.0" />
+      <PackageReference Include="AWSSDK.ServiceDiscovery" Version="3.5.0.12" />
+    </ItemGroup>
+
+</Project>
