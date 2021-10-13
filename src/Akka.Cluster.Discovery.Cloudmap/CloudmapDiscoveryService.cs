@@ -16,7 +16,7 @@ namespace Akka.Cluster.Discovery.Cloudmap
 
         /// <summary>
         /// Message scheduled by <see cref="CloudmapDiscoveryService"/> for itself. 
-        /// Used to trigger periodic restart of consul client.
+        /// Used to trigger periodic restart of cloudmap client.
         /// </summary>
         public sealed class RestartClient
         {
