@@ -95,3 +95,6 @@ akka.cluster.discovery {
 	}
 }
 ```
+
+### TODO
+* Use manual cluster node registration/deregistration. (Currently relies on automatic registration)
