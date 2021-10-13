@@ -15,7 +15,7 @@ namespace Akka.Cluster.Discovery.Cloudmap
             RestartInterval = !config.HasPath("restart-interval") ? default(TimeSpan?) : config.GetTimeSpan("restart-interval");
 
             var serviceCheckTtl = config.GetTimeSpan("service-check-ttl", new TimeSpan(this.AliveInterval.Ticks * 3));
-            if (serviceCheckTtl < AliveInterval || serviceCheckTtl > AliveTimeout) throw new ArgumentException("`akka.cluster.discovery.cloudmap.service-check-ttl` must greater than `akka.cluster.discovery.consul.alive-interval` and less than `akka.cluster.discovery.consul.alive-timeout`");
+            if (serviceCheckTtl < AliveInterval || serviceCheckTtl > AliveTimeout) throw new ArgumentException("`akka.cluster.discovery.cloudmap.service-check-ttl` must greater than `akka.cluster.discovery.cloudmap.alive-interval` and less than `akka.cluster.discovery.consul.alive-timeout`");
             
             ServiceCheckTtl = serviceCheckTtl;
         }
