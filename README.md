@@ -97,4 +97,6 @@ akka.cluster.discovery {
 ```
 
 ### TODO
+
 * Use manual cluster node registration/deregistration. (Currently relies on automatic registration)
+* Use tag to denote if the actor system is launched (on some services actor system isn't launched but service discovery is present)
